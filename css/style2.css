@@ -1,0 +1,211 @@
+/* Come riferimento ho usato per le dimensioni ho usato 402x815*/
+
+/* INFORMAZIONI GENERALI*/
+:not(h1,h2,h3, #link_header) {
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.65;
+    color:#393d41;
+}
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #25a2c3;  
+    line-height: 1.5;
+    font-weight: bold;
+}
+ body {
+    width: 1500px;
+    margin: 0 auto;
+ }
+  h2 {
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+  
+/**************** INIZIO HEADER ************************/
+header {
+    margin: 0 auto;
+}
+#logo_img {
+    background-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0;
+}
+#logo_img img {
+    width: 150px;
+}
+    
+#head_section {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 0;
+    text-align: center;
+    padding: 200px;
+    box-sizing: border-box;
+}
+h1 {
+    font-weight: bold;
+    word-wrap: break-word;
+    margin: 30px 8px 10px 8px;
+    font-size: xx-large;
+    word-wrap:break-word;
+}
+#head_section p {
+    margin: 18px 0 30px;
+    font-size: 1em;
+}
+#container {
+    background-color: #f04c2f;
+    border-radius: 8%;
+    margin: 30px;
+    padding: 10px;
+    width: 180px;
+    margin: 30px auto;
+    text-align: center;
+}
+#head_section a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    
+}
+
+/**************** FINE HEADER ************************/
+
+
+
+
+
+/**************** INIZIO MAIN ************************/
+
+main {
+    background-color: #ffffff;
+    width: 800px;
+    padding: 8px;  
+    box-sizing: border-box;
+}
+
+
+
+/********************** INIZIO SEZIONI 3 PARAGRAFI + IMMAGINE ***********************/
+.all_art {
+    padding: 8px;
+    margin: 40px 7px 20px;
+    text-align: center;
+}
+.all_art h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.all_art p {
+    font-size: 0.9em;
+}
+#img_main {
+    float: left;  
+text-align: center; 
+}
+
+#img_main {
+float: left;  
+text-align: center;  
+}
+
+#img_main img {
+    border-radius: 80%;
+    width: 300px;
+    margin: 30px 0 0 0 ;
+}
+/********************** FINE SEZIONI 3 PARAGRAFI + IMMAGINE ***********************/
+
+
+
+
+
+
+/********************** INIZIO  SEZIONE TESTIMONIANZA***********************/
+#quote {
+    background-color:#e22d0e;
+    text-align: center;
+    margin: 0 auto;
+    width: 412px;
+    box-sizing: border-box;
+    
+}
+#quote h2 {
+    margin:  0 auto;
+    padding: 30px 0 30px;
+    
+}
+#quote q{
+    font-style: italic;
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0 30px;
+    display: block;
+    font-size: 0.8em;
+}
+#quote cite {
+    color: #ffffff;
+    margin: 10px 0 80px;
+    padding: 10px;
+}
+/********************** FINE SEZIONE TESTIMONIANZA***********************/
+
+
+
+/********************** INIZIO ASIDE CON I 3 RIQUADRI***********************/
+ 
+.a_riq {
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid  #dee1e3;
+    width: 380px;
+    box-sizing: border-box;
+    border-radius: 2%;
+}
+
+.a_riq h3 {
+    font-weight: bold;
+}
+
+.imgriq img {
+    width: 378px;
+}
+
+
+/********************** FINE ASIDE CON I 3 RIQUADRI***********************/
+
+/********************** INIZIO FOOTER ***********************/
+
+footer {
+    width: 412px;
+    text-align: center;
+    padding: 30px 0 30px;
+    background-color: #22a0be;
+    box-sizing: border-box;
+  }
+#copy, #copy a, #footer_section a, #add{
+    color: #ffffff;
+    font-size: 0.7em;
+}
+ hr {
+    width: 200px;
+ }
+/********************** FINE FOOTER ***********************/
+
+
+
+
+
+
+
+
+
+
+
